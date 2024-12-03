@@ -39,7 +39,7 @@ int main() {
     }
     printf("(%d times)\n", maxf);
 
-    // Display characters with min frequency
+
     printf("Least repeated characters: ");
     for (i = 0; i < 26; i++) {
         if (f[i] == minf) {
